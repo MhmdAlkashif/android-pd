@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         result = findViewById(R.id.textView)
 
+
         var userName: String = intent.getStringExtra("userName").toString()
         var age : Int = intent.getIntExtra("age",0).toString().toInt()
 
